@@ -1,0 +1,22 @@
+{
+  "name": "@ilsrk/technical-design",
+  "version": "0.1.0",
+  "description": "Component-based technical design process: requirements, solution cards, review, validation, and implementation.",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "cursor",
+    "technical-design"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilsrk/technical-design.git"
+  },
+  "files": [
+    "skills",
+    "commands"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
