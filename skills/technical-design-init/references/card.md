@@ -9,9 +9,9 @@ Use the [following document](./components/task-context.md) to create the technic
 The header of the technical design card must include the technical design ID and a short task description.
 
 The technical design card must contain the following technical design sections:
-  - Task Context
+  - Context
   - Requirenments
-  - Techdesign State
+  - State
 
 ## Formatting Guidelines
 

@@ -1,15 +1,15 @@
-# Task Context Component
+# Task Context
 
 ## Structure
 
 The technical design context component **MUST** contain the following information:
-  - Brief task description
-  - Related Artifacts
+  - Description
+  - Artifacts
 
 The technical design context component **MAY** contain the following information:
-  - Detailed task description
+  - Details
 
-Related Artifacts **MUST** contain the following information:
-  - Artifact Name
-  - Link to the artifact
+Artifacts **MUST** contain the following information:
+  - Name
+  - Link
   - Comments

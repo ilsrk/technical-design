@@ -29,7 +29,8 @@ Read the [technical design card design guidelines](./references/card.md).
 ## Input
 
 - Unique task identifier
-- Task Description
+- Task title
+- Task description
 - Working directory
 
 ## Output
