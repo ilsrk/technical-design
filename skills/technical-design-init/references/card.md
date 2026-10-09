@@ -2,7 +2,11 @@
 
 ## Artifacts
 
-Use the [following document](./components/task-context.md) to create the technical design context component.
+| Name | When to use |
+|-|-|
+| [Context](./components/task-context.md) | Create task context component |
+| [Requirenments Registry](./components/requirenments-registry.md) | Create requirenments registry |
+| [State](./components/state.md) | Create technical design state |
 
 ## Structure
 
