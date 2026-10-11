@@ -33,13 +33,12 @@ flowchart TD
 | `review`             | Check that solutions meet the requirements      |
 | `realize` / `export` | Write the code, or export the design            |
 
-
-
-
 # Quick Start
 
 ```
 npm install -g @ilsrk/technical-design@latest
+
+npm skills add ilsrk/technical-design
 
 ```
 
