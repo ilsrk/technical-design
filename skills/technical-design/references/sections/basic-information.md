@@ -1,7 +1,10 @@
-# Context section
+# Basic information
 
-## Components 
+Description and artifacts: everything that needs to be known before starting the design process.
 
-| Component   | Required   |
-| ----------- | ---------- 
-|   || 
+## Components
+
+| Component | Required |
+| --------- | -------- |
+| Context   | true     |
+| Artifacts | false    |

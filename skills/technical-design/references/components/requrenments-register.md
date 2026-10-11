@@ -1,6 +1,6 @@
-# Requirenments Register
+# Requirements register
 
-Requirements list
+List of requirements for solving the given problem.
 
 ## Structure
 
@@ -8,11 +8,11 @@ Requirements list
 | ------------ | ------------------------------------- | -------- |
 | ID           | A unique requirement identifier       | true     |
 | Title        | Requirement title                     | true     |
-| Description  | Requirement descripti                 | true     |
+| Description  | Short requirement description         | true     |
 | Details      | Detailed requirement description      | false    |
 | Dependencies | References to the parent requirements | false    |
 | Comments     | User comments                         | false    |
 
-## Hard Constraints
+## Hard constraints
 
 - The requirements register **MUST** contain **AT LEAST** one requirement.
