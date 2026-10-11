@@ -31,9 +31,10 @@ description: Technical design management: creation, updates, authoring, validati
 
 ## Structure
 
-- Technical design has a title (root) document — the technical design card.
+- Technical design has a title (root) document — [the technical design card](./references/roots/design-card.md).
 - Technical design is based on a component-based approach.
-  - Components are the building blocks of technical design.
+- Components are the building blocks of technical design.
+- Technical design consists of individually analyzed [solution nodes](./references/roots/solution-card.md).
 
 ## Hard constraints
 
@@ -43,43 +44,45 @@ description: Technical design management: creation, updates, authoring, validati
 
 ## Process
 
-| Process              | When it runs                                    |
-| -------------------- | ----------------------------------------------- |
-| `initial` / `import` | Start a new design, or bring in an existing one |
-| `continue`           | Design requirements and solutions               |
-| `edit`               | Change the design or related components         |
-| `validate`           | Check completeness, diagrams, and wording       |
-| `review`             | Check that solutions meet the requirements      |
-| `realize` / `export` | Write the code, or export the design            |
+| Process              | When it runs                                    | Link |
+| -------------------- | ----------------------------------------------- | ---- |
+| `initial`            | Start a new design, or bring in an existing one | [link](./references/process/init.md) |
+| `import`             | Start a new design, or bring in an existing one | [link](./references/process/import.md) |
+| `continue`           | Design requirements and solutions               | [link](./references/process/continue.md) |
+| `edit`               | Change the design or related components         | [link](./references/process/edit.md) |
+| `validate`           | Check completeness, diagrams, and wording       | [link](./references/process/vilidate.md) |
+| `review`             | Check that solutions meet the requirements      | [link](./references/process/review.md) |
+| `realize`            | Write the code, or export the design            | [link](./references/process/realize.md) |
+| `export`             | Write the code, or export the design            | [link](./references/process/export.md) |
 
 ## Technocal design card
 
 The root component containing the technical design sections 
 
-### Sections
+### Section list
 
-| Section                 | Which groups together                                                                                     | Required |
-| ----------------------- | --------------------------------------------------------------------------------------------------------- | -------- |
-| `Basic information`     | Description and artifacts: everything that needs to be known before starting the design process           | true     |
-| `Requirenmets`          | Requirements for the problem being solved                                                                 | true     |
-| `System design`         | System design: which services will be deployed, dependencies between systems, public API contracts, etc   | optional |
-| `Application design`    | Application design: components, layers, contracts, and dependencies                                       | optional |
-| `Data design`           | Data storage design: the structure of relational and non-relational databases, object storage, etc        | optional |
-| `Observability design`  | Observability design: metrics to be collected, processes to be monitored, etc                             | optional |
-| `Testing plan`          | Test plan: a document describing how the problem being solved will be tested                              | true     |
-| `Implementation plan`   | Implementation plan: breakdown into phases and phases into tasks                                          | true     |
-| `State`                 | A technical section reflecting the current state of the technical design                                  | true     |
-| `Reviews`               | Technical design reviews                                                                                  | optional |
+| Section                 | Which groups together                                                                                     | Link |
+| ----------------------- | --------------------------------------------------------------------------------------------------------- | ---- |
+| `Basic information`     | Description and artifacts: everything that needs to be known before starting the design process           | [link](./references/sections/basic-information.md) |
+| `Requirenmets`          | Requirements for the problem being solved                                                                 | [link](./references/sections/requirenments.md) |
+| `System design`         | System design: which services will be deployed, dependencies between systems, public API contracts, etc   | [link](./references/sections/system-design.md) |
+| `Application design`    | Application design: components, layers, contracts, and dependencies                                       | [link](./references/sections/application-design.md) |
+| `Data design`           | Data storage design: the structure of relational and non-relational databases, object storage, etc        | [link](./references/sections/data-design.md) |
+| `Observability design`  | Observability design: metrics to be collected, processes to be monitored, etc                             | [link](./references/sections/obserability-design.md) |
+| `Testing plan`          | Test plan: a document describing how the problem being solved will be tested                              | [link](./references/sections/testing-plan.md) |
+| `Implementation plan`   | Implementation plan: breakdown into phases and phases into tasks                                          | [link](./references/sections/implementation-plan.md) |
+| `State`                 | A technical section reflecting the current state of the technical design                                  | [link](./references/sections/state-machine.md) |
+| `Reviews`               | Technical design reviews                                                                                  | [link](./references/sections/reviews.md) |
 
-## Components
+## Component list
 
-| Component                 | What a component contains                                                                                          |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `Context`                 | Additional information to help solve the problem more effectively                                                  |
-| `Artifacts`               | Links to external documents that must be taken into account and affect the problem being solved                    |
-| `Requirenements register` | List of requirements for solving the given problem                                                                 |
-| `Decision nodes`          | A tabular list of decisions made, with links to the corresponding decision records                                 |
-| `Solution card`           | Design of a decision node, listing options, their evaluations, and the reasons for selecting or rejecting each one |
-| `Metrics`                 | Monitoring metrics                                                                                                 |
-| `Alerts`                  | Observability alerts                                                                                               |
-| `State machine`           | List of requirements for solving the given problem                                                                 |
+| Component                 | What a component contains                                                                                          | Link |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
+| `Context`                 | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md) |
+| `Artifacts`               | Links to external documents that must be taken into account and affect the problem being solved                    | |
+| `Requirenements register` | List of requirements for solving the given problem                                                                 | [link](./references/components/requrenments-register.md) |
+| `Decision nodes`          | A tabular list of decisions made, with links to the corresponding decision records                                 | [link](./references/sections/solution-design.md) |
+| `Solution card`           | Design of a decision node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md) |
+| `Metrics`                 | Monitoring metrics                                                                                                 | [link](./references/sections/metrics.md) |
+| `Alerts`                  | Observability alerts                                                                                               | [link](./references/sections/alertings.md) |
+| `State machine`           | List of requirements for solving the given problem                                                                 | [link](./references/components/state-machine.md) |
