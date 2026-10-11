@@ -55,11 +55,7 @@ description: Technical design management: creation, updates, authoring, validati
 | `realize`            | Write the code, or export the design            | [link](./references/process/realize.md) |
 | `export`             | Write the code, or export the design            | [link](./references/process/export.md) |
 
-## Technocal design card
-
-The root component containing the technical design sections 
-
-### Section list
+## Section list
 
 | Section                 | Which groups together                                                                                     | Link |
 | ----------------------- | --------------------------------------------------------------------------------------------------------- | ---- |
