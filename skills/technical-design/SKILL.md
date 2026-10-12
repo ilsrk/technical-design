@@ -56,6 +56,7 @@ description: >-
 - Use snake_case for file and directory naming.
 - Name directories and files ONLY in English.
 - Name the root directory of the technical design using the task ID followed by a short task description in English.
+- Name the root technical design document `index.md`.
 
 ## Process
 
