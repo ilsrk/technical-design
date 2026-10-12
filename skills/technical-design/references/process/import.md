@@ -21,6 +21,6 @@
 
 - Link to the external technical design to be imported.
 
-## Otputs
+## Outputs
 
 - Link to the imported technical design.

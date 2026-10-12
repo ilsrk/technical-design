@@ -1,11 +1,12 @@
 # Partitions
 
-List of Partitions for Tables to Be Designed
+List of partitions for tables to be designed.
 
 ## Structure
 
-| Table       | Key             | Type     | Comments |
-| ----------- | ----------------| -------- | -------- |
-|             |                 |          |          |
-|             |                 |          |          |
-|             |                 |          |          |
+| Field       | Description                              | Required |
+| ----------- | ---------------------------------------- | -------- |
+| Table       | Target table name                        | true     |
+| Key         | Partition key                            | true     |
+| Type        | Partition type (range, list, hash, etc.) | true     |
+| Comments    | User comments                            | false    |

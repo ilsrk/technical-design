@@ -6,4 +6,7 @@ Data storage design: the structure of relational and non-relational databases, o
 
 | Component      | Required |
 | -------------- | -------- |
-| Decision nodes | true     |
+| Tables         | false    |
+| Table          | false    |
+| Indexes        | false    |
+| Partitions     | false    |

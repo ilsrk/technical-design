@@ -2,7 +2,7 @@
 
 ## Hard constraints
 
-- Does not write code, perform analysis, design solutions, or gather requirements.
+- Does not write code.
 
 ## Steps
 

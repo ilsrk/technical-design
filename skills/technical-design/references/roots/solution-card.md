@@ -16,5 +16,5 @@ The root document of the decision record. It describes the decision node, availa
 
 ## Hard constraints
 
-- The header of the technical design card must include the technical design ID and a short task description.
+- The header of the solution card must include the decision node ID and a short title.
 - The order of the sections must not be changed, even if the user requests otherwise.

@@ -15,7 +15,6 @@
 ## Constraints
 
 - Technical design formats may differ between the local and external repositories.
-  - Technical design formats may differ between the local and external repositories.
 
 ## Inputs
 
