@@ -6,7 +6,7 @@ Initialize the technical design working directory and create a technical design 
 
 - Does not write code, perform analysis, design solutions, or gather requirements.
 
-## Instructions
+## Steps
 
 1. Validate the Input Data.
 2. Create a Working Directory.

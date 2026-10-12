@@ -20,6 +20,12 @@ description: Technical design management: creation, updates, authoring, validati
 - Design a solution to the given problem.
 - Reduce uncertainty in decision-making.
 
+## Steps
+
+1. Determining the Technical Design Working Directory
+  - Based on the context of the data provided by the user, determine whether a technical design needs to be created, imported, continued, modified, validated, reviewed, implemented, or exported.
+2. Apply the appropriate process based on the list of processes in the `Process` section of this document.
+
 ## Conventions
 
 - Technical design is primarily intended to be read by humans and reviewed by the team
@@ -41,6 +47,12 @@ description: Technical design management: creation, updates, authoring, validati
 - Do not write code.
 - Do not modify documents outside the technical design working directory.
 - **Never** fill in or modify comment fields. These fields must be completed EXCLUSIVELY by the user.
+
+## Soft constraints (сan be overridden.)
+
+- Use snake_case for file and directory naming.
+- Name directories and files ONLY in English.
+- Name the root directory of the technical design using the task ID followed by a short task description in English.
 
 ## Process
 
