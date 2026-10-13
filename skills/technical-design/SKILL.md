@@ -104,3 +104,9 @@ description: >-
 | `Partitions`              | Partitions for relational tables                                                                                   | [link](./references/components/relation-database/partitions.md) |
 | `State machine`           | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md) |
 | `Reviews`                 | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md) |
+
+## Solution card templates
+
+| Template                  | When to use                                                                                                        | Link |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
+| `Observability design`    | When designing an observability solution effectively                                                  | [link](./templates/solution-cards/obserability-desion.md) |
