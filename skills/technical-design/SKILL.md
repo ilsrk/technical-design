@@ -96,6 +96,7 @@ description: >-
 | `Requirements register`   | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md) |
 | `Decision nodes`          | A tabular list of decisions made, with links to the corresponding decision records                                 | [link](./references/components/decision-nodes.md) |
 | `Solution card`           | Design of a decision node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md) |
+| `Observing`               | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md) |
 | `Metrics`                 | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md) |
 | `Alerts`                  | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md) |
 | `Tables`                  | Created and modified relational tables                                                                             | [link](./references/components/relation-database/tables.md) |
