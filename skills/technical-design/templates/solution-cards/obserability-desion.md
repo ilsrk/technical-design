@@ -4,5 +4,6 @@
 
 | Component               | Required |
 | ----------------------- | -------- |
+| `Observing`             | true     |
 | `Metrics`               | true     |
 | `Alerts`                | true     |
