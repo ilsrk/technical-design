@@ -1,6 +1,6 @@
 # Solution card
 
-The root document of the decision record. It describes the decision node, available options, the evaluation of each option, and the reasons for accepting or rejecting each option.
+The root document of the solution record. It describes the solution node, available options, the evaluation of each option, and the reasons for accepting or rejecting each option.
 
 ## Sections
 
@@ -15,10 +15,10 @@ The root document of the decision record. It describes the decision node, availa
 
 ## Hard constraints
 
-- The header of the solution card must include the decision node ID and a short title.
+- The header of the solution card must include the solution node ID and a short title.
 - The order of the sections must not be changed, even if the user requests otherwise.
 
 ## Templates
 
-Each Decision Card has a different component structure. Use the base component template in the `Solution design` section. Refer to the table for the templates.
+Each Solution Card has a different component structure. Use the base component template in the `Solution design` section. Refer to the table for the templates.
 

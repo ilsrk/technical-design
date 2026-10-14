@@ -6,4 +6,4 @@ System design: which services will be deployed, dependencies between systems, pu
 
 | Component      | Required |
 | -------------- | -------- |
-| Decision nodes | true     |
+| Solution nodes | true     |

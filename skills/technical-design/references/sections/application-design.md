@@ -6,4 +6,4 @@ Application design: components, layers, contracts, and dependencies.
 
 | Component      | Required |
 | -------------- | -------- |
-| Decision nodes | true     |
+| Solution nodes | true     |

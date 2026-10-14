@@ -29,32 +29,32 @@
 
 ### 5. Start filling in the System Design section.
 
-- Ask the user where system-level decisions need to be made, and continue until they finish filling out the system decisions register.
-- Suggest that the user start designing the system decision cards.
-- Complete the System Design section once all decision nodes in the decision register have selected options and links to completed decision cards.
+- Ask the user where system-level solutions need to be made, and continue until they finish filling out the system solutions register.
+- Suggest that the user start designing the system solution cards.
+- Complete the System Design section once all solution nodes in the solution register have selected options and links to completed solution cards.
 
-### 6. Start filling in the Infrastructure Design Decisions section.
+### 6. Start filling in the Infrastructure Design Solutions section.
 
 - Ask the user which deployment units they intend to design.
 - Keep asking until the user explicitly asks you to stop.
-- Record everything in the Infrastructure Decisions Register.
-- Suggest that the user start designing infrastructure decisions in the decision cards.
-- Complete the system design once all decisions in the decision register have selected options and corresponding decision cards.
+- Record everything in the Infrastructure Solutions Register.
+- Suggest that the user start designing infrastructure solutions in the solution cards.
+- Complete the system design once all solutions in the solution register have selected options and corresponding solution cards.
 
 ### 7. Start filling in the Application Design section.
 
-- Ask which decisions need to be made and record them in the Decision Register.
+- Ask which solutions need to be made and record them in the Solution Register.
 - Keep asking until the user explicitly asks you to stop.
-- Suggest that the user start designing the decision cards.
-- Complete the Application Design section once all decisions in the Application Design Decision Register have selected options and links to their corresponding decision cards.
+- Suggest that the user start designing the solution cards.
+- Complete the Application Design section once all solutions in the Application Design Solution Register have selected options and links to their corresponding solution cards.
 
 ### 8. Start designing the Data Storage Design section.
 
-- Ask the user which data needs to be designed and which decisions need to be made.
-- Record all decisions in the Decision Register.
+- Ask the user which data needs to be designed and which solutions need to be made.
+- Record all solutions in the Solution Register.
 - Keep asking the user until they explicitly ask you to stop.
-- Suggest starting to design the decision cards.
-- Complete the design once all decisions have selected options and links to their corresponding decision cards.
+- Suggest starting to design the solution cards.
+- Complete the design once all solutions have selected options and links to their corresponding solution cards.
 
 ### 9. Start designing the Test Plan section.
 

@@ -16,12 +16,14 @@ description: >-
 
 **A technical design section** is a logically grouped set of blocks that address specific design problems. Examples include a system design block, an application design block, a task context block, a testing block, and so on.
 
-**Decision nodes (points, areas)** are a list of areas where decisions must be made to meet the requirements of the given task.
+**Solution nodes (points, areas)** are a list of areas where solutions must be made to meet the requirements of the given task.
+
+**A solution card** is a detailed design of a single solution node, including a comprehensive description of all available options and the rationale behind the solution made.
 
 ## Purpose
 
 - Design a solution to the given problem.
-- Reduce uncertainty in decision-making.
+- Reduce uncertainty in solution-making.
 
 ## Steps
 
@@ -32,9 +34,9 @@ description: >-
 ## Conventions
 
 - Technical design is primarily intended to be read by humans and reviewed by the team
-- The more requirements are considered, the fewer options remain at each decision point.
+- The more requirements are considered, the fewer options remain at each solution point.
 - The IT team may supplement the task with its own requirements (constraints, assumptions, etc.), but these requirements must be considered lower priority.
-- The technical design must contain at least one decision to be made. A technical design that does not solve the stated problems has no reason to exist.
+- The technical design must contain at least one solution to be made. A technical design that does not solve the stated problems has no reason to exist.
 - When referencing requirements, always specify the requirement ID and title.
 - Whenever you reference something, use Markdown links in the [text](URL) format. ALWAYS verify that links are reachable.
 
@@ -81,7 +83,7 @@ description: >-
 | `Application design`    | Application design: components, layers, contracts, and dependencies                                       | [link](./references/sections/application-design.md) |
 | `Data design`           | Data storage design: the structure of relational and non-relational databases, object storage, etc        | [link](./references/sections/data-design.md) |
 | `Observability design`  | Observability design: metrics to be collected, processes to be monitored, etc                             | [link](./references/sections/observability-design.md) |
-| `Solution design`       | Design of a decision node: options, evaluations, and reasons for accepting or rejecting each option       | [link](./references/sections/solution-design.md) |
+| `Solution design`       | Design of a solution node: options, evaluations, and reasons for accepting or rejecting each option       | [link](./references/sections/solution-design.md) |
 | `Testing plan`          | Test plan: a document describing how the problem being solved will be tested                              | [link](./references/sections/testing-plan.md) |
 | `Implementation plan`   | Implementation plan: breakdown into phases and phases into tasks                                          | [link](./references/sections/implementation-plan.md) |
 | `Service`               | A service section for managing the technical design process: statuses, logs, tracking, etc                | [link](./references/sections/service.md) |
@@ -94,8 +96,8 @@ description: >-
 | `Context`                 | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md) |
 | `Artifacts`               | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md) |
 | `Requirements register`   | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md) |
-| `Decision nodes`          | A tabular list of decisions made, with links to the corresponding decision records                                 | [link](./references/components/decision-nodes.md) |
-| `Solution card`           | Design of a decision node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md) |
+| `Solution nodes`          | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md) |
+| `Solution card`           | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md) |
 | `Observing`               | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md) |
 | `Metrics`                 | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md) |
 | `Alerts`                  | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md) |
