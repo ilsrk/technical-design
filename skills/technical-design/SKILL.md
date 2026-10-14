@@ -105,6 +105,7 @@ description: >-
 | `Partitions`              | Partitions for relational tables                                                                                   | [link](./references/components/relation-database/partitions.md) |
 | `State machine`           | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md) |
 | `Reviews`                 | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md) |
+| `Open Questions`          | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md) |
 
 ## Solution card templates
 
