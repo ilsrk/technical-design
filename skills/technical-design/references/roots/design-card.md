@@ -8,15 +8,15 @@ Root document for managing the technical design.
 
 ## Sections
 
-| Section                 | Required |
-| ----------------------- | -------- |
-| `Basic information`     | true     |
-| `Requirements`          | true     |
-| `System design`         | false    |
-| `Application design`    | false    |
-| `Data design`           | false    |
-| `Observability design`  | false    |
-| `Testing plan`          | true     |
-| `Implementation plan`   | true     |
-| `Service`               | true     |
-| `Support`               | true     |
+| Section                | Required |
+| ---------------------- | -------- |
+| `Basic information`    | true     |
+| `Requirements`         | true     |
+| `System design`        | false    |
+| `Application design`   | false    |
+| `Data design`          | false    |
+| `Observability design` | false    |
+| `Testing plan`         | true     |
+| `Implementation plan`  | true     |
+| `Service`              | true     |
+| `Support`              | true     |

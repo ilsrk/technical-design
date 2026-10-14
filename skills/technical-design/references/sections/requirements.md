@@ -4,9 +4,9 @@ Requirements for the problem being solved.
 
 ## Components
 
-| Component              | Required |
-| ---------------------- | -------- |
-| Requirements register  | true     |
+| Component             | Required |
+| --------------------- | -------- |
+| Requirements register | true     |
 
 ## Hard constraints
 

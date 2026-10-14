@@ -4,14 +4,14 @@ The root document of the solution record. It describes the solution node, availa
 
 ## Sections
 
-| Section                 | Required |
-| ----------------------- | -------- |
-| `Basic information`     | true     |
-| `Requirements`          | true     |
-| `Solution design`       | true     |
-| `Testing plan`          | false    |
-| `Service`               | true     |
-| `Support`               | false    |
+| Section             | Required |
+| ------------------- | -------- |
+| `Basic information` | true     |
+| `Requirements`      | true     |
+| `Solution design`   | true     |
+| `Testing plan`      | false    |
+| `Service`           | true     |
+| `Support`           | false    |
 
 ## Hard constraints
 

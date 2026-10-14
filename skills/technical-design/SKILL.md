@@ -62,55 +62,55 @@ description: >-
 
 ## Process
 
-| Process              | When it runs                                          | Link |
-| -------------------- | ----------------------------------------------------- | ---- |
-| `initial`            | Start a new technical design                          | [link](./references/process/init.md) |
-| `import`             | Bring in an existing design from an external source   | [link](./references/process/import.md) |
-| `continue`           | Design requirements and solutions                     | [link](./references/process/continue.md) |
-| `edit`               | Change the design or related components               | [link](./references/process/edit.md) |
-| `validate`           | Check completeness, diagrams, and wording             | [link](./references/process/validate.md) |
-| `review`             | Check that solutions meet the requirements            | [link](./references/process/review.md) |
-| `realize`            | Implement the design in code                          | [link](./references/process/realize.md) |
-| `export`             | Export the design to an external source               | [link](./references/process/export.md) |
+| Process    | When it runs                                        | Link                                     |
+| ---------- | --------------------------------------------------- | ---------------------------------------- |
+| `initial`  | Start a new technical design                        | [link](./references/process/init.md)     |
+| `import`   | Bring in an existing design from an external source | [link](./references/process/import.md)   |
+| `continue` | Design requirements and solutions                   | [link](./references/process/continue.md) |
+| `edit`     | Change the design or related components             | [link](./references/process/edit.md)     |
+| `validate` | Check completeness, diagrams, and wording           | [link](./references/process/validate.md) |
+| `review`   | Check that solutions meet the requirements          | [link](./references/process/review.md)   |
+| `realize`  | Implement the design in code                        | [link](./references/process/realize.md)  |
+| `export`   | Export the design to an external source             | [link](./references/process/export.md)   |
 
 ## Section list
 
-| Section                 | Which groups together                                                                                     | Link |
-| ----------------------- | --------------------------------------------------------------------------------------------------------- | ---- |
-| `Basic information`     | Description and artifacts: everything that needs to be known before starting the design process           | [link](./references/sections/basic-information.md) |
-| `Requirements`          | Requirements for the problem being solved                                                                 | [link](./references/sections/requirements.md) |
-| `System design`         | System design: which services will be deployed, dependencies between systems, public API contracts, etc   | [link](./references/sections/system-design.md) |
-| `Application design`    | Application design: components, layers, contracts, and dependencies                                       | [link](./references/sections/application-design.md) |
-| `Data design`           | Data storage design: the structure of relational and non-relational databases, object storage, etc        | [link](./references/sections/data-design.md) |
-| `Observability design`  | Observability design: metrics to be collected, processes to be monitored, etc                             | [link](./references/sections/observability-design.md) |
-| `Solution design`       | Design of a solution node: options, evaluations, and reasons for accepting or rejecting each option       | [link](./references/sections/solution-design.md) |
-| `Testing plan`          | Test plan: a document describing how the problem being solved will be tested                              | [link](./references/sections/testing-plan.md) |
-| `Implementation plan`   | Implementation plan: breakdown into phases and phases into tasks                                          | [link](./references/sections/implementation-plan.md) |
-| `Service`               | A service section for managing the technical design process: statuses, logs, tracking, etc                | [link](./references/sections/service.md) |
-| `Support`               | Support for technical design. History of changes, reviews, etc                                            | [link](./references/sections/support.md) |
+| Section                | Which groups together                                                                                   | Link                                                  |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| `Basic information`    | Description and artifacts: everything that needs to be known before starting the design process         | [link](./references/sections/basic-information.md)    |
+| `Requirements`         | Requirements for the problem being solved                                                               | [link](./references/sections/requirements.md)         |
+| `System design`        | System design: which services will be deployed, dependencies between systems, public API contracts, etc | [link](./references/sections/system-design.md)        |
+| `Application design`   | Application design: components, layers, contracts, and dependencies                                     | [link](./references/sections/application-design.md)   |
+| `Data design`          | Data storage design: the structure of relational and non-relational databases, object storage, etc      | [link](./references/sections/data-design.md)          |
+| `Observability design` | Observability design: metrics to be collected, processes to be monitored, etc                           | [link](./references/sections/observability-design.md) |
+| `Solution design`      | Design of a solution node: options, evaluations, and reasons for accepting or rejecting each option     | [link](./references/sections/solution-design.md)      |
+| `Testing plan`         | Test plan: a document describing how the problem being solved will be tested                            | [link](./references/sections/testing-plan.md)         |
+| `Implementation plan`  | Implementation plan: breakdown into phases and phases into tasks                                        | [link](./references/sections/implementation-plan.md)  |
+| `Service`              | A service section for managing the technical design process: statuses, logs, tracking, etc              | [link](./references/sections/service.md)              |
+| `Support`              | Support for technical design. History of changes, reviews, etc                                          | [link](./references/sections/support.md)              |
 
 ## Component list
 
-| Component                 | What a component contains                                                                                          | Link |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
-| `Context`                 | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md) |
-| `Artifacts`               | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md) |
-| `Requirements register`   | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md) |
-| `Solution nodes`          | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md) |
-| `Solution card`           | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md) |
-| `Observing`               | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md) |
-| `Metrics`                 | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md) |
-| `Alerts`                  | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md) |
-| `Tables`                  | Created and modified relational tables                                                                             | [link](./references/components/relation-database/tables.md) |
-| `Table`                   | Single table design: columns and attributes                                                                        | [link](./references/components/relation-database/table.md) |
-| `Indexes`                 | Indexes for relational tables                                                                                      | [link](./references/components/relation-database/indexes.md) |
-| `Partitions`              | Partitions for relational tables                                                                                   | [link](./references/components/relation-database/partitions.md) |
-| `State machine`           | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md) |
-| `Reviews`                 | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md) |
-| `Open Questions`          | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md) |
+| Component               | What a component contains                                                                                          | Link                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
+| `Context`               | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md)                      |
+| `Artifacts`             | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md)                    |
+| `Requirements register` | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)        |
+| `Solution nodes`        | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md)               |
+| `Solution card`         | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md)                     |
+| `Observing`             | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md)      |
+| `Metrics`               | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md)        |
+| `Alerts`                | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md)         |
+| `Tables`                | Created and modified relational tables                                                                             | [link](./references/components/relation-database/tables.md)     |
+| `Table`                 | Single table design: columns and attributes                                                                        | [link](./references/components/relation-database/table.md)      |
+| `Indexes`               | Indexes for relational tables                                                                                      | [link](./references/components/relation-database/indexes.md)    |
+| `Partitions`            | Partitions for relational tables                                                                                   | [link](./references/components/relation-database/partitions.md) |
+| `State machine`         | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md)                |
+| `Reviews`               | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                      |
+| `Open Questions`        | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)               |
 
 ## Solution card templates
 
-| Template                  | When to use                                                                                                        | Link |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- |
-| `Observability design`    | When designing an observability solution effectively                                                  | [link](./templates/solution-cards/obserability-desion.md) |
+| Template               | When to use                                          | Link                                                      |
+| ---------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
+| `Observability design` | When designing an observability solution effectively | [link](./templates/solution-cards/obserability-desion.md) |
