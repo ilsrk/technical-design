@@ -6,6 +6,6 @@ Technical design reviews and review history.
 
 | Field    | Description                 | Required |
 | -------- | --------------------------- | -------- |
-| Reviewer | Who performed the review    | true     |
-| Status   | Review outcome or status    | true     |
+| Author   | Who performed the review    | true     |
+| Review   | Review outcome              | true     |
 | Comments | User comments               | false    |
