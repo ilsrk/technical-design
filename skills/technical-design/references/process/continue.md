@@ -3,11 +3,12 @@
 ## Hard constraints
 
 - Does not write code.
-- **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, options, or selected decisions for them.
+- **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, variants, or selected decisions for them.
 
 ## Conventions
 
-- After each solution card is complete, record Selected solution on the corresponding solution node: the chosen option ID and a short description.
+- After each solution card is complete, set Status `Selected` on the chosen row in Solution variants, then record Selected solution on the corresponding solution node: the chosen variant ID and a short description.
+- When adding a variant, ask which Type fits the problem (see Solution variant types). Build the variant details document from that type's components.
 
 ## Steps
 

@@ -50,15 +50,15 @@ Evaluate each item. Mark as pass, fail, or not applicable. Failures must appear 
 ### Requirements coverage
 
 - [ ] Every in-scope requirement is addressed by at least one solution (cite requirement ID + title).
-- [ ] No accepted option contradicts a higher-priority requirement.
+- [ ] No accepted variant contradicts a higher-priority requirement.
 - [ ] Team-added constraints are treated as lower priority than task requirements.
 
 ### Solution quality
 
-- [ ] Each solution node has Selected solution filled (option ID + short description) and explicit rationale on the solution card.
-- [ ] Rejected options have reasons, not silence.
+- [ ] Each solution node has Selected solution filled (variant ID + short description) and explicit rationale on the solution card.
+- [ ] Rejected variants have reasons, not silence.
 - [ ] Evaluations refer to requirements by ID, not vague claims.
-- [ ] Chosen options are implementable given the documented context and artifacts.
+- [ ] Chosen variants are implementable given the documented context and artifacts.
 
 ### Completeness and risk
 

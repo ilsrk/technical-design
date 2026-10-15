@@ -59,7 +59,7 @@ Lists and tables remain lists and tables. Inside cells and bullets, still write 
 
 - **NEVER** add machine-text patterns listed above when writing design prose.
 - **NEVER** “polish” by inserting dashes, triplet slogans, or empty contrasts.
-- **NEVER** change meaning, requirement IDs, or selected options to satisfy style.
+- **NEVER** change meaning, requirement IDs, or selected variants to satisfy style.
 - **ALWAYS** rewrite a sentence that needs a dash instead of swapping in a hyphen.
 
 ## Outputs

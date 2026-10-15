@@ -1,4 +1,6 @@
-# Refactoring solution card
+# Refactoring variant
+
+Variant type for designing a refactoring of existing code or system: as-is state, to-be state, and migration.
 
 ## Components
 

@@ -78,7 +78,7 @@ If any required input is missing, ask the user and stop until provided.
 - If the external doc has no matching component, either:
   - place content in the closest existing component (not in user Comments), or
   - ask the user which component to use.
-- Keep requirement IDs, solution node IDs, and option IDs stable across conversion when present.
+- Keep requirement IDs, solution node IDs, and variant IDs stable across conversion when present.
 - Use Markdown links `[text](URL)`; verify reachability when linking back to originals.
 - Diagrams: keep source text (Mermaid/PlantUML) when the target supports it; otherwise link to the original artifact.
 - Technical design formats may differ between local and external repositories — that is expected.

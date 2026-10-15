@@ -19,7 +19,9 @@ description: >-
 
 **Solution nodes (points, areas)** are a list of areas where solutions must be made to meet the requirements of the given task.
 
-**A solution card** is a detailed design of a single solution node, including a comprehensive description of all available options and the rationale behind the solution made.
+**A solution card** is a detailed design of a single solution node, including a comprehensive description of all available variants and the rationale behind the solution made.
+
+**Solution variants** are a tabular list of solution variants for a solution node, each with an ID, title, type, status, and link. The type selects which components the variant details document contains.
 
 ## Purpose
 
@@ -56,7 +58,7 @@ description: >-
 - **Never** modify documents outside the technical design working directory.
 - **Never** fill in or modify comment fields. These fields must be completed EXCLUSIVELY by the user.
 - **Never** add comments or your own text blocks outside the component structure.
-- **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, options, or selected decisions for them.
+- **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, variants, or selected decisions for them.
 
 ## Soft constraints (can be overridden)
 
@@ -86,7 +88,7 @@ description: >-
 | `Application design`   | Application design: components, layers, contracts, and dependencies                                     | [link](./references/sections/application-design.md)   |
 | `Data design`          | Data storage design: the structure of relational and non-relational databases, object storage, etc      | [link](./references/sections/data-design.md)          |
 | `Observability design` | Observability design: metrics to be collected, processes to be monitored, etc                           | [link](./references/sections/observability-design.md) |
-| `Solution design`      | Design of a solution node: options, evaluations, and reasons for accepting or rejecting each option     | [link](./references/sections/solution-design.md)      |
+| `Solution design`      | Design of a solution node: variants, evaluations, and reasons for accepting or rejecting each variant   | [link](./references/sections/solution-design.md)      |
 | `Testing plan`         | Test plan: a document describing how the problem being solved will be tested                            | [link](./references/sections/testing-plan.md)         |
 | `Implementation plan`  | Implementation plan: breakdown into phases and phases into tasks                                        | [link](./references/sections/implementation-plan.md)  |
 | `Service`              | A service section for managing the technical design process: statuses, logs, tracking, etc              | [link](./references/sections/service.md)              |
@@ -101,8 +103,9 @@ description: >-
 | `Glossary`                 | Domain and project terms used in the technical design, with their meanings                                         | [link](./references/components/glossary.md)                          |
 | `User stories`             | List of user stories that describe the problem from the user's perspective                                         | [link](./references/components/user-stories.md)                      |
 | `Requirements register`    | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)             |
-| `Solution nodes`           | A tabular list of solution nodes, with links to cards and the selected option once the card is complete            | [link](./references/components/solution-nodes.md)                    |
-| `Solution card`            | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md)                          |
+| `Solution nodes`           | A tabular list of solution nodes, with links to cards and the selected variant once the card is complete           | [link](./references/components/solution-nodes.md)                    |
+| `Solution variants`        | A tabular list of solution variants for a solution node, with type, status, and links                              | [link](./references/components/solution-variants.md)                 |
+| `Solution card`            | Design of a solution node; variants carry type-specific component sets                                             | [link](./references/roots/solution-card.md)                          |
 | `Observing`                | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md)           |
 | `Metrics`                  | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md)             |
 | `Alerts`                   | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md)              |
@@ -129,10 +132,12 @@ description: >-
 | `Target state`             | Desired (to-be) structure, invariants, and success criteria after the refactoring                                  | [link](./references/components/refactoring/target-state.md)          |
 | `Migration plan`           | Strategy, steps, rollback, and risks for moving from current to target state                                       | [link](./references/components/refactoring/migration-plan.md)        |
 
-## Solution card templates
+## Solution variant types
 
-| Template               | When to use                                          | Link                                                       |
-| ---------------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
-| `Observability design` | When designing an observability solution effectively | [link](./templates/solution-cards/obserability-design.md)  |
-| `System design`        | When designing a system-level solution               | [link](./templates/solution-cards/system-design.md)        |
-| `Refactoring design`   | When designing a refactoring of existing code or system | [link](./templates/solution-cards/refactoring-design.md) |
+Use these as the Type of a row in Solution variants. They define the component set of the variant details document, not the structure of the solution card.
+
+| Type             | When to use                                                | Link                                          |
+| ---------------- | ---------------------------------------------------------- | --------------------------------------------- |
+| `Observability`  | When designing an observability solution                   | [link](./references/variants/observability.md)  |
+| `System design`  | When designing a system-level solution                     | [link](./references/variants/system-design.md)  |
+| `Refactoring`    | When designing a refactoring of existing code or system    | [link](./references/variants/refactoring.md)    |
