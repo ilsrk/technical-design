@@ -4,8 +4,9 @@ Description and artifacts: everything that needs to be known before starting the
 
 ## Components
 
-| Component | Required |
-| --------- | -------- |
-| Context   | true     |
-| Artifacts | false    |
-| Glossary  | false    |
+| Component             | Required |
+| --------------------- | -------- |
+| Context               | true     |
+| Artifacts             | false    |
+| Glossary              | false    |
+| User stories          | false    |

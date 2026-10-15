@@ -23,9 +23,8 @@
 
 ### 4. Start filling in the Requirements section.
 
-- Suggest that the user add a requirement.
-- Ask the user if they want to finish gathering requirements.
-- Record the requirements-gathering status in the Technical Design State component.
+- Apply [`technical-design-requirements`](../../../technical-design-requirements/SKILL.md).
+- Record the requirements-gathering status in the Technical Design State component after that skill finishes.
 
 ### 5. Start filling in the System Design section.
 

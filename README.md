@@ -18,7 +18,10 @@ flowchart TD
   entry -->|existing| converterIn[technical-design-converter<br/>to-internal]
   initial --> continue[continue]
   converterIn --> continue
-  continue --> needEdit{Need changes?}
+  continue --> reqDone{Requirements done?}
+  reqDone -->|no| reqSkill[technical-design-requirements]
+  reqSkill --> continue
+  reqDone -->|yes| needEdit{Need changes?}
   needEdit -->|yes| edit[edit]
   edit --> continue
   needEdit -->|no| validate[validate]
@@ -35,6 +38,7 @@ flowchart TD
 | --------------- | ------------ |
 | `initial` / `technical-design-converter` (`to-internal`) | Start a new design, or bring in an existing one |
 | `continue` | Design requirements and solutions |
+| `technical-design-requirements` | Gather and record requirements via dialogue |
 | `edit` | Change the design or related components |
 | `validate` | Check completeness, diagrams, and wording |
 | `technical-design-review` | Check that solutions meet the requirements |

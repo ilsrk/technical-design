@@ -74,12 +74,6 @@ description: >-
 | `validate` | Check completeness, diagrams, and wording | [link](./references/process/validate.md) |
 | `realize`  | Implement the design in code              | [link](./references/process/realize.md)  |
 
-## Related skills
-
-| Skill | When it runs | Link |
-| ----- | ------------ | ---- |
-| `technical-design-converter` | Import from or export to an external source | [link](../technical-design-converter/SKILL.md) |
-| `technical-design-review` | Critical review against requirements | [link](../technical-design-review/SKILL.md) |
 
 ## Section list
 
@@ -104,6 +98,7 @@ description: >-
 | `Context`                  | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md)                           |
 | `Artifacts`                | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md)                         |
 | `Glossary`                 | Domain and project terms used in the technical design, with their meanings                                         | [link](./references/components/glossary.md)                          |
+| `User stories`             | List of user stories that describe the problem from the user's perspective                                         | [link](./references/components/user-stories.md)                      |
 | `Requirements register`    | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)             |
 | `Solution nodes`           | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md)                    |
 | `Solution card`            | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md)                          |
