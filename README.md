@@ -2,7 +2,14 @@
 
 Agent skill for a component-based technical design. It creates a design directory and a root document, then walks requirements, solution cards, review, and validation before implementation.
 
-# Process map
+## Concept
+
+The technical design process implements the human-to-human and human-to-AI concepts.
+
+The process is not intended for fully AI-driven generation and is not a replacement for AI-SDD approaches. 
+It enables comfortable human participation in the chain of AI-driven and human decision-making.
+
+## Process map
 
 ```mermaid
 flowchart TD
@@ -33,7 +40,7 @@ flowchart TD
 | `review`             | Check that solutions meet the requirements      |
 | `realize` / `export` | Write the code, or export the design            |
 
-# Quick Start
+## Quick Start
 
 ```
 npm install -g @ilsrk/technical-design@latest

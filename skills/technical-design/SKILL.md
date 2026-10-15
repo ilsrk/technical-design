@@ -49,11 +49,12 @@ description: >-
 
 ## Hard constraints
 
-- Do not write code, except during the `realize` process.
-- Do not modify documents outside the technical design working directory.
+- **Never** write code, except during the `realize` process.
+- **Never** modify documents outside the technical design working directory.
 - **Never** fill in or modify comment fields. These fields must be completed EXCLUSIVELY by the user.
+- **Never** add comments or your own text blocks outside the component structure.
 
-## Soft constraints (can be overridden.)
+## Soft constraints (can be overridden)
 
 - Use snake_case for file and directory naming.
 - Name directories and files ONLY in English.

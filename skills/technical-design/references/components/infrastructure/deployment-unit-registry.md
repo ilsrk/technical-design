@@ -1,16 +1,25 @@
-# Deployment unit
+# Deployment unit registry
+
+Detailed description of the deployment unit
 
 ## Structure
 
-| Field       | Description      | Required | Type |
-| ----------- | ---------------- | -------- | ---- |
-| ID          | Unit ID          | true     |      |
-| Name        | Unit name        | true     |      |
-| Type        | Unit type        | true     |      |
-| Description | Unit description | true     |      |
-| Attributes  | Unit attributes  | true     |      |
-| Comments    | User comments    | false    |      |
+| Field       | Description      | Required | Type              |
+| ----------- | ---------------- | -------- | ----------------- |
+| ID          | Unit ID          | true     | string            |
+| Name        | Unit name        | true     | string            |
+| Type        | Unit type        | true     | enum              |
+| Description | Unit description | true     | text              |
+| Attributes  | Unit attributes  | true     | list of Attribute |
+| Comments    | User comments    | false    | text              |
 
-## Conventions
+## Complex data types
 
-- 
+- For Unit Attributes type use Attribute component
+
+## Enums
+
+Type:
+  - service
+  - account
+  - config
