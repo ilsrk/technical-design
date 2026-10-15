@@ -1,14 +1,15 @@
-# Change topic
+# Change message
 
-Change to an existing Kafka topic.
+Change to an existing queue message.
 
 ## Structure
 
 | Field      | Description                          | Required | Type   |
 | ---------- | ------------------------------------ | -------- | ------ |
-| Name       | Topic name                           | true     | string |
-| As is      | Current topic state                  | true     | text   |
-| To be      | Target topic state                   | true     | text   |
+| Topic      | Topic name                           | true     | string |
+| Message    | Message identifier or name           | true     | string |
+| As is      | Current message state                | true     | text   |
+| To be      | Target message state                 | true     | text   |
 | Changes    | List of planned changes              | true     | text   |
 | Reason     | Why the change is needed             | true     | text   |
 | Rationale  | Justification for the chosen approach| true     | text   |

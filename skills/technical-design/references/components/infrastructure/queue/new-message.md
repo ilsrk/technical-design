@@ -1,6 +1,6 @@
 # New message
 
-New Kafka message design.
+New queue message design.
 
 ## Structure
 
