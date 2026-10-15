@@ -8,3 +8,4 @@ Description and artifacts: everything that needs to be known before starting the
 | --------- | -------- |
 | Context   | true     |
 | Artifacts | false    |
+| Glossary  | false    |

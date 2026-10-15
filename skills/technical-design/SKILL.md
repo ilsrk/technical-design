@@ -96,6 +96,7 @@ description: >-
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
 | `Context`                  | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md)                           |
 | `Artifacts`                | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md)                         |
+| `Glossary`                 | Domain and project terms used in the technical design, with their meanings                                         | [link](./references/components/glossary.md)                          |
 | `Requirements register`    | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)             |
 | `Solution nodes`           | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md)                    |
 | `Solution card`            | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md)                          |
