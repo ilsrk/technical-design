@@ -92,26 +92,30 @@ description: >-
 
 ## Component list
 
-| Component               | What a component contains                                                                                          | Link                                                            |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
-| `Context`               | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md)                      |
-| `Artifacts`             | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md)                    |
-| `Requirements register` | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)        |
-| `Solution nodes`        | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md)               |
-| `Solution card`         | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md)                     |
-| `Observing`             | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md)      |
-| `Metrics`               | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md)        |
-| `Alerts`                | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md)         |
-| `Tables`                | Created and modified relational tables                                                                             | [link](./references/components/relation-database/tables.md)     |
-| `Table`                 | Single table design: columns and attributes                                                                        | [link](./references/components/relation-database/table.md)      |
-| `Indexes`               | Indexes for relational tables                                                                                      | [link](./references/components/relation-database/indexes.md)    |
-| `Partitions`            | Partitions for relational tables                                                                                   | [link](./references/components/relation-database/partitions.md) |
-| `State machine`         | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md)                |
-| `Reviews`               | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                      |
-| `Open Questions`        | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)               |
+| Component                  | What a component contains                                                                                          | Link                                                                 |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| `Context`                  | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md)                           |
+| `Artifacts`                | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md)                         |
+| `Requirements register`    | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)             |
+| `Solution nodes`           | A tabular list of solutions made, with links to the corresponding solution records                                 | [link](./references/components/solution-nodes.md)                    |
+| `Solution card`            | Design of a solution node, listing options, their evaluations, and the reasons for selecting or rejecting each one | [link](./references/roots/solution-card.md)                          |
+| `Observing`                | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md)           |
+| `Metrics`                  | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md)             |
+| `Alerts`                   | Observability alerts                                                                                               | [link](./references/components/observability/alerts.md)              |
+| `Tables`                   | Created and modified relational tables                                                                             | [link](./references/components/relation-database/tables.md)          |
+| `Table`                    | Single table design: columns and attributes                                                                        | [link](./references/components/relation-database/table.md)           |
+| `Indexes`                  | Indexes for relational tables                                                                                      | [link](./references/components/relation-database/indexes.md)         |
+| `Partitions`               | Partitions for relational tables                                                                                   | [link](./references/components/relation-database/partitions.md)      |
+| `Attributes`               | Object attributes                                                                                                  | [link](./references/components/attributes.md)                        |
+| `Deployment unit registry` | List of deployment units: servers, systems, users, connections, packages, etc.                                     | [link](./references/components/infrastructure/deployment-unit-registry.md) |
+| `Deployment unit`          | Detailed description of the deployment unit                                                                        | [link](./references/components/infrastructure/deployment-unit.md)    |
+| `State machine`            | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md)                     |
+| `Reviews`                  | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                           |
+| `Open Questions`           | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)                    |
 
 ## Solution card templates
 
-| Template               | When to use                                          | Link                                                      |
-| ---------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
-| `Observability design` | When designing an observability solution effectively | [link](./templates/solution-cards/obserability-desion.md) |
+| Template               | When to use                                          | Link                                                       |
+| ---------------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
+| `Observability design` | When designing an observability solution effectively | [link](./templates/solution-cards/obserability-design.md)  |
+| `System design`        | When designing a system-level solution               | [link](./templates/solution-cards/system-design.md)        |
