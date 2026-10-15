@@ -1,6 +1,6 @@
 # Migration plan
 
-Steps and strategy for moving from the current state to the target state.
+Steps and strategy for the refactoring migration.
 
 ## Structure
 

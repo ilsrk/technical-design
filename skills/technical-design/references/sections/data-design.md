@@ -4,9 +4,10 @@ Data storage design: the structure of relational and non-relational databases, o
 
 ## Components
 
-| Component  | Required |
-| ---------- | -------- |
-| Tables     | false    |
-| Table      | false    |
-| Indexes    | false    |
-| Partitions | false    |
+| Component      | Required |
+| -------------- | -------- |
+| Solution nodes | true     |
+| Tables         | false    |
+| Table          | false    |
+| Indexes        | false    |
+| Partitions     | false    |

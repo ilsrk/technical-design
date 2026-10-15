@@ -41,7 +41,7 @@ description: >-
 ## Conventions
 
 - Technical design is primarily intended to be read by humans and reviewed by the team
-- The more requirements are considered, the fewer options remain at each solution point.
+- The more requirements are considered, the fewer variants remain at each solution point.
 - The IT team may supplement the task with its own requirements (constraints, assumptions, etc.), but these requirements must be considered lower priority.
 - The technical design must contain at least one solution to be made. A technical design that does not solve the stated problems has no reason to exist.
 - When referencing requirements, always specify the requirement ID and title.
@@ -68,6 +68,7 @@ description: >-
 - Name directories and files ONLY in English.
 - Name the root directory of the technical design using the task ID followed by a short task description in English.
 - Name the root technical design document `index.md`.
+- Place solution variant details in the same file as the Solution variants register, unless the user asks to decompose the solutions.
 
 ## Process
 
@@ -131,7 +132,7 @@ description: >-
 | `State machine`            | A status model reflecting the current status of individual sections and the overall technical design status        | [link](./references/components/state-machine.md)                     |
 | `Reviews`                  | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                           |
 | `Open Questions`           | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)                    |
-| `Migration plan`           | Strategy, steps, rollback, and risks for moving from current to target state                                       | [link](./references/components/refactoring/migration-plan.md)        |
+| `Migration plan`           | Strategy, steps, rollback, and risks for the refactoring migration                                                 | [link](./references/components/refactoring/migration-plan.md)        |
 
 ## Solution variant types
 
@@ -140,5 +141,5 @@ Use these as the Type of a row in Solution variants. They add components on top 
 | Type             | When to use                                                | Link                                          |
 | ---------------- | ---------------------------------------------------------- | --------------------------------------------- |
 | `Observability`  | When designing an observability solution                   | [link](./references/variants/observability.md)  |
-| `System design`  | When designing a system-level solution                     | [link](./references/variants/system-design.md)  |
+| `System design`  | When designing services, deployment units, and connections | [link](./references/variants/system-design.md)  |
 | `Refactoring`    | When designing a refactoring of existing code or system    | [link](./references/variants/refactoring.md)    |

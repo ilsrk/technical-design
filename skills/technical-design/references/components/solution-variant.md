@@ -1,6 +1,6 @@
 # Solution variant
 
-Details document for a single solution variant. Linked from a row in Solution variants.
+Details of a single solution variant. Linked from a row in Solution variants. By default live in the same file as that register; use a separate file only when the user asks to decompose the solutions.
 
 ## Components
 

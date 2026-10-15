@@ -22,6 +22,10 @@ A tabular list of solution variants for a solution node. Each row links to a Sol
 - `Rejected` marks variants that were considered and declined.
 - Type selects extra components from the Solution variant types list in the skill. The details document always includes the Solution variant base components, plus the type's components.
 
+## Soft constraints
+
+- Place variant details in the same file as this register. Split variants into separate files only when the user asks to decompose the solutions. In that case Link points to the separate details document; otherwise Link is an in-file anchor.
+
 ## Hard constraints
 
 - Each variant **MUST** have a unique ID.

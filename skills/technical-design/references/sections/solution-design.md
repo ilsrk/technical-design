@@ -12,6 +12,10 @@ Main section for solution design.
 
 - Each solution variant must be considered separately.
 
+## Soft constraints
+
+- Keep variant details in the same file as the Solution variants register unless the user asks to decompose the solutions.
+
 ## Hard constraints
 
 - Variant details **MUST** use a type from [`references/variants`](../variants/). Do not invent variant structure outside those types.

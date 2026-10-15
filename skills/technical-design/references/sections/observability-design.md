@@ -4,7 +4,6 @@ Observability design: metrics to be collected, processes to be monitored, etc.
 
 ## Components
 
-| Component    | Required |
-| ------------ | -------- |
-| Desion nodes | true     |
-
+| Component      | Required |
+| -------------- | -------- |
+| Solution nodes | true     |
