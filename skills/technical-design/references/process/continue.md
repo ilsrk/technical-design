@@ -5,6 +5,10 @@
 - Does not write code.
 - **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, options, or selected decisions for them.
 
+## Conventions
+
+- After each solution card is complete, record Selected solution on the corresponding solution node: the chosen option ID and a short description.
+
 ## Steps
 
 ### 1. Determine the current state
@@ -31,7 +35,7 @@
 
 - Ask the user where system-level solutions need to be made, and continue until they finish filling out the system solutions register.
 - Suggest that the user start designing the system solution cards.
-- Complete the System Design section once all solution nodes in the solution register have selected options and links to completed solution cards.
+- Complete the System Design section once all solution nodes in the solution register have Selected solution filled and links to completed solution cards.
 
 ### 6. Start filling in the Infrastructure Design Solutions section.
 
@@ -39,14 +43,14 @@
 - Keep asking until the user explicitly asks you to stop.
 - Record everything in the Infrastructure Solutions Register.
 - Suggest that the user start designing infrastructure solutions in the solution cards.
-- Complete the system design once all solutions in the solution register have selected options and corresponding solution cards.
+- Complete the system design once all solutions in the solution register have Selected solution filled and corresponding solution cards.
 
 ### 7. Start filling in the Application Design section.
 
 - Ask which solutions need to be made and record them in the Solution Register.
 - Keep asking until the user explicitly asks you to stop.
 - Suggest that the user start designing the solution cards.
-- Complete the Application Design section once all solutions in the Application Design Solution Register have selected options and links to their corresponding solution cards.
+- Complete the Application Design section once all solutions in the Application Design Solution Register have Selected solution filled and links to their corresponding solution cards.
 
 ### 8. Start designing the Data Storage Design section.
 
@@ -54,7 +58,7 @@
 - Record all solutions in the Solution Register.
 - Keep asking the user until they explicitly ask you to stop.
 - Suggest starting to design the solution cards.
-- Complete the design once all solutions have selected options and links to their corresponding solution cards.
+- Complete the design once all solutions have Selected solution filled and links to their corresponding solution cards.
 
 ### 9. Start designing the Test Plan section.
 

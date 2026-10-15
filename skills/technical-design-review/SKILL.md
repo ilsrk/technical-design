@@ -55,7 +55,7 @@ Evaluate each item. Mark as pass, fail, or not applicable. Failures must appear 
 
 ### Solution quality
 
-- [ ] Each solution node has a selected option with explicit rationale.
+- [ ] Each solution node has Selected solution filled (option ID + short description) and explicit rationale on the solution card.
 - [ ] Rejected options have reasons, not silence.
 - [ ] Evaluations refer to requirements by ID, not vague claims.
 - [ ] Chosen options are implementable given the documented context and artifacts.
