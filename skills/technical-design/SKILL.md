@@ -70,6 +70,7 @@ description: >-
 - Name the root directory of the technical design using the task ID followed by a short task description in English.
 - Name the root technical design document `index.md`.
 - Place solution variant details in the same file as the Solution variants register, unless the user asks to decompose the solutions.
+- Use the original names of sections, components, and other terms from the skill `references`. **Never** translate them into other languages.
 
 ## Process
 
