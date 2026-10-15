@@ -56,6 +56,7 @@ description: >-
 - **Never** modify documents outside the technical design working directory.
 - **Never** fill in or modify comment fields. These fields must be completed EXCLUSIVELY by the user.
 - **Never** add comments or your own text blocks outside the component structure.
+- **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, options, or selected decisions for them.
 
 ## Soft constraints (can be overridden)
 

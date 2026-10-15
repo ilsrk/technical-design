@@ -3,6 +3,7 @@
 ## Hard constraints
 
 - Does not write code.
+- **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, options, or selected decisions for them.
 
 ## Steps
 
