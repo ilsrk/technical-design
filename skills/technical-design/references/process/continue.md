@@ -62,6 +62,8 @@
 
 ### 11. Collect reviews.
 
+- Apply [`technical-design-review`](../../../technical-design-review/SKILL.md).
+
 ## Output
 
 - List of technical design section statuses (technical design status)

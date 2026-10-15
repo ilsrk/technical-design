@@ -22,8 +22,8 @@ flowchart TD
   needEdit -->|yes| edit[edit]
   edit --> continue
   needEdit -->|no| validate[validate]
-  validate --> review[review]
-  review --> finish{Code or export?}
+  validate --> reviewSkill[technical-design-review]
+  reviewSkill --> finish{Code or export?}
   finish -->|code| realize[realize]
   finish -->|export| converterOut[technical-design-converter<br/>to-external]
   realize --> done([Done])
@@ -37,7 +37,7 @@ flowchart TD
 | `continue` | Design requirements and solutions |
 | `edit` | Change the design or related components |
 | `validate` | Check completeness, diagrams, and wording |
-| `review` | Check that solutions meet the requirements |
+| `technical-design-review` | Check that solutions meet the requirements |
 | `realize` / `technical-design-converter` (`to-external`) | Write the code, or export the design |
 
 ## Quick Start

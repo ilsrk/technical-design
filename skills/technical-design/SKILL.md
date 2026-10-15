@@ -29,8 +29,9 @@ description: >-
 ## Steps
 
 1. Determining the Technical Design Working Directory
-  - Based on the context of the data provided by the user, determine whether a technical design needs to be created, continued, modified, validated, reviewed, or implemented.
+  - Based on the context of the data provided by the user, determine whether a technical design needs to be created, continued, modified, validated, or implemented.
   - If the user needs to import or export a design, apply [`technical-design-converter`](../technical-design-converter/SKILL.md) instead of a process in this skill.
+  - If the user needs to review a design, apply [`technical-design-review`](../technical-design-review/SKILL.md) instead of a process in this skill.
 2. Apply the appropriate process based on the list of processes in the `Process` section of this document.
 
 ## Conventions
@@ -65,21 +66,20 @@ description: >-
 
 ## Process
 
-| Process    | When it runs                               | Link                                     |
-| ---------- | ------------------------------------------ | ---------------------------------------- |
-| `initial`  | Start a new technical design               | [link](./references/process/init.md)     |
-| `continue` | Design requirements and solutions          | [link](./references/process/continue.md) |
+| Process    | When it runs                              | Link                                     |
+| ---------- | ----------------------------------------- | ---------------------------------------- |
+| `initial`  | Start a new technical design              | [link](./references/process/init.md)     |
+| `continue` | Design requirements and solutions         | [link](./references/process/continue.md) |
 | `edit`     | Change the design or related components   | [link](./references/process/edit.md)     |
-| `validate` | Check completeness, diagrams, and wording  | [link](./references/process/validate.md) |
-| `review`   | Check that solutions meet the requirements | [link](./references/process/review.md)   |
-| `realize`  | Implement the design in code               | [link](./references/process/realize.md)  |
+| `validate` | Check completeness, diagrams, and wording | [link](./references/process/validate.md) |
+| `realize`  | Implement the design in code              | [link](./references/process/realize.md)  |
 
 ## Related skills
 
 | Skill | When it runs | Link |
 | ----- | ------------ | ---- |
 | `technical-design-converter` | Import from or export to an external source | [link](../technical-design-converter/SKILL.md) |
-| `technical-design-review` | Critical review against requirements (also via `review` process) | [link](../technical-design-review/SKILL.md) |
+| `technical-design-review` | Critical review against requirements | [link](../technical-design-review/SKILL.md) |
 
 ## Section list
 
