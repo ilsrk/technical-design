@@ -30,6 +30,7 @@
 
 - [ ] Markdown links use `[text](URL)` and resolve to existing paths or reachable URLs.
 - [ ] Requirement references include requirement ID and title.
+- [ ] Artifacts link only to AS IS schemas and solutions already in a release; no TO BE or not-yet-released designed solutions.
 
 ### Wording
 

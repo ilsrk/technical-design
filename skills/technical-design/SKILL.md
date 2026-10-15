@@ -102,7 +102,7 @@ description: >-
 | Component                  | What a component contains                                                                                          | Link                                                                 |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
 | `Context`                  | Additional information to help solve the problem more effectively                                                  | [link](./references/components/context.md)                           |
-| `Artifacts`                | Links to external documents that must be taken into account and affect the problem being solved                    | [link](./references/components/artifacts.md)                         |
+| `Artifacts`                | Links to AS IS external documents (schemas, released solutions) that affect the problem  | [link](./references/components/artifacts.md)                         |
 | `Glossary`                 | Domain and project terms used in the technical design, with their meanings                                         | [link](./references/components/glossary.md)                          |
 | `User stories`             | List of user stories that describe the problem from the user's perspective                                         | [link](./references/components/user-stories.md)                      |
 | `Requirements register`    | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)             |
