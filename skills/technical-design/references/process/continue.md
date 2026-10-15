@@ -59,11 +59,6 @@
 
 ### 10. Start designing the Implementation Plan section.
 
-### 11. Collect reviews.
-
-- Apply [`technical-design-review`](../../../technical-design-review/SKILL.md).
-
 ## Output
 
 - List of technical design section statuses (technical design status)
--

@@ -124,6 +124,9 @@ description: >-
 | `State machine`            | A status model reflecting the current status of individual sections and the overall technical design status        | [link](./references/components/state-machine.md)                     |
 | `Reviews`                  | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                           |
 | `Open Questions`           | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)                    |
+| `Current state`            | Current (as-is) structure and problems of the code or system being refactored                                      | [link](./references/components/refactoring/current-state.md)         |
+| `Target state`             | Desired (to-be) structure, invariants, and success criteria after the refactoring                                  | [link](./references/components/refactoring/target-state.md)          |
+| `Migration plan`           | Strategy, steps, rollback, and risks for moving from current to target state                                       | [link](./references/components/refactoring/migration-plan.md)        |
 
 ## Solution card templates
 
@@ -131,3 +134,4 @@ description: >-
 | ---------------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
 | `Observability design` | When designing an observability solution effectively | [link](./templates/solution-cards/obserability-design.md)  |
 | `System design`        | When designing a system-level solution               | [link](./templates/solution-cards/system-design.md)        |
+| `Refactoring design`   | When designing a refactoring of existing code or system | [link](./templates/solution-cards/refactoring-design.md) |
