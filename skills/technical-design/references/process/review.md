@@ -3,8 +3,7 @@
 ## Steps
 
 1. Determine the review scope (an individual solution or the entire technical design).
-2. Find the `Reviews` component in the review target.
-3. Record the review in the `Reviews` component, authored by AI.
+2. Apply the [`technical-design-review`](../../../technical-design-review/SKILL.md) skill.
 
 ## Conventions
 

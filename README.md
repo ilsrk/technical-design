@@ -15,9 +15,9 @@ It enables comfortable human participation in the chain of AI-driven and human d
 flowchart TD
   start([Start]) --> entry{New or existing?}
   entry -->|new| initial[initial]
-  entry -->|existing| import[import]
+  entry -->|existing| converterIn[technical-design-converter<br/>to-internal]
   initial --> continue[continue]
-  import --> continue
+  converterIn --> continue
   continue --> needEdit{Need changes?}
   needEdit -->|yes| edit[edit]
   edit --> continue
@@ -25,20 +25,20 @@ flowchart TD
   validate --> review[review]
   review --> finish{Code or export?}
   finish -->|code| realize[realize]
-  finish -->|export| export[export]
+  finish -->|export| converterOut[technical-design-converter<br/>to-external]
   realize --> done([Done])
-  export --> done
+  converterOut --> done
 ```
 
 
-| Process              | When it runs                                    |
-| -------------------- | ----------------------------------------------- |
-| `initial` / `import` | Start a new design, or bring in an existing one |
-| `continue`           | Design requirements and solutions               |
-| `edit`               | Change the design or related components         |
-| `validate`           | Check completeness, diagrams, and wording       |
-| `review`             | Check that solutions meet the requirements      |
-| `realize` / `export` | Write the code, or export the design            |
+| Process / skill | When it runs |
+| --------------- | ------------ |
+| `initial` / `technical-design-converter` (`to-internal`) | Start a new design, or bring in an existing one |
+| `continue` | Design requirements and solutions |
+| `edit` | Change the design or related components |
+| `validate` | Check completeness, diagrams, and wording |
+| `review` | Check that solutions meet the requirements |
+| `realize` / `technical-design-converter` (`to-external`) | Write the code, or export the design |
 
 ## Quick Start
 
@@ -48,4 +48,3 @@ npm install -g @ilsrk/technical-design@latest
 npm skills add ilsrk/technical-design
 
 ```
-
