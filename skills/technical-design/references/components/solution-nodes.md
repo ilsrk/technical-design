@@ -4,13 +4,14 @@ A tabular list of solutions made, with links to the corresponding solution recor
 
 ## Structure
 
-| Field    | Description                             | Required |
-| -------- | --------------------------------------- | -------- |
-| ID       | A unique solution node identifier       | true     |
-| Title    | Solution node title                     | true     |
-| Status   | Current solution status                 | true     |
-| Link     | Link to the corresponding solution card | true     |
-| Comments | User comments                           | false    |
+| Field              | Description                             | Required |
+| ------------------ | --------------------------------------- | -------- |
+| ID                 | A unique solution node identifier       | true     |
+| Title              | Solution node title                     | true     |
+| Status             | Current solution status                 | true     |
+| Link               | Link to the corresponding solution card | true     |
+| Related solutions  | Links to related solution nodes         | false    |
+| Comments           | User comments                           | false    |
 
 ## Hard constraints
 
