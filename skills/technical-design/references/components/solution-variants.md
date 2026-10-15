@@ -1,6 +1,6 @@
 # Solution variants
 
-A tabular list of solution variants for a solution node. Each variant has a type that defines which components its details document contains.
+A tabular list of solution variants for a solution node. Each row links to a Solution variant details document. Type selects which extra components that document adds on top of the Solution variant base set.
 
 ## Structure
 
@@ -20,8 +20,7 @@ A tabular list of solution variants for a solution node. Each variant has a type
 - `Selected` is set only when the user asks to choose and finalize a solution. Once this is done, the solution card is considered complete.
 - `Candidate` marks variants still being evaluated.
 - `Rejected` marks variants that were considered and declined.
-- Type selects the variant definition from the Solution variant types list in the skill. The variant details document **MUST** follow that type's component set.
-- If no listed type fits the problem, ask the user which components the variant needs and record them in the variant details document.
+- Type selects extra components from the Solution variant types list in the skill. The details document always includes the Solution variant base components, plus the type's components.
 
 ## Hard constraints
 
@@ -30,4 +29,4 @@ A tabular list of solution variants for a solution node. Each variant has a type
 - There can be only one variant with Status `Selected`.
 - A newly added variant **MUST** have Status `Candidate`.
 - Each variant **MUST** have a Type.
-- The variant details document **MUST** include only components allowed by its Type (or by the user when no type fits).
+- The variant details document **MUST** follow the Solution variant component and the chosen Type.

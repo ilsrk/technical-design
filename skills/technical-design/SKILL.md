@@ -21,7 +21,9 @@ description: >-
 
 **A solution card** is a detailed design of a single solution node, including a comprehensive description of all available variants and the rationale behind the solution made.
 
-**Solution variants** are a tabular list of solution variants for a solution node, each with an ID, title, type, status, and link. The type selects which components the variant details document contains.
+**Solution variants** are a tabular list of solution variants for a solution node, each with an ID, title, type, status, and link.
+
+**A solution variant** is the details document for one row in Solution variants.
 
 ## Purpose
 
@@ -105,6 +107,7 @@ description: >-
 | `Requirements register`    | List of requirements for solving the given problem                                                                 | [link](./references/components/requirements-register.md)             |
 | `Solution nodes`           | A tabular list of solution nodes, with links to cards and the selected variant once the card is complete           | [link](./references/components/solution-nodes.md)                    |
 | `Solution variants`        | A tabular list of solution variants for a solution node, with type, status, and links                              | [link](./references/components/solution-variants.md)                 |
+| `Solution variant`         | Details of one solution variant: base components plus type-specific components                                     | [link](./references/components/solution-variant.md)                  |
 | `Solution card`            | Design of a solution node; variants carry type-specific component sets                                             | [link](./references/roots/solution-card.md)                          |
 | `Observing`                | What is planned to be observed                                                                                     | [link](./references/components/observability/observing.md)           |
 | `Metrics`                  | Monitoring metrics                                                                                                 | [link](./references/components/observability/metrics.md)             |
@@ -128,13 +131,11 @@ description: >-
 | `State machine`            | A status model reflecting the current status of individual sections and the overall technical design status        | [link](./references/components/state-machine.md)                     |
 | `Reviews`                  | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                           |
 | `Open Questions`           | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)                    |
-| `Current state`            | Current (as-is) structure and problems of the code or system being refactored                                      | [link](./references/components/refactoring/current-state.md)         |
-| `Target state`             | Desired (to-be) structure, invariants, and success criteria after the refactoring                                  | [link](./references/components/refactoring/target-state.md)          |
 | `Migration plan`           | Strategy, steps, rollback, and risks for moving from current to target state                                       | [link](./references/components/refactoring/migration-plan.md)        |
 
 ## Solution variant types
 
-Use these as the Type of a row in Solution variants. They define the component set of the variant details document, not the structure of the solution card.
+Use these as the Type of a row in Solution variants. They add components on top of the Solution variant base set.
 
 | Type             | When to use                                                | Link                                          |
 | ---------------- | ---------------------------------------------------------- | --------------------------------------------- |
