@@ -61,6 +61,7 @@ description: >-
 - **Never** fill in or modify comment fields. These fields must be completed EXCLUSIVELY by the user.
 - **Never** add comments or your own text blocks outside the component structure.
 - **Never** design solutions on behalf of the consumer. Ask, prompt, and record; do not invent, choose, or fill in solutions, variants, or selected decisions for them.
+- **Never** change names or formulations that are already written, unless the user explicitly asks for that change.
 
 ## Soft constraints (can be overridden)
 
