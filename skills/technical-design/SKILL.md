@@ -119,7 +119,7 @@ description: >-
 | `New message`              | New queue message design                                                                                           | [link](./references/components/infrastructure/queue/new-message.md)  |
 | `Change topic`             | Change to an existing queue topic                                                                                  | [link](./references/components/infrastructure/queue/change-topic.md) |
 | `Change message`           | Change to an existing queue message                                                                                | [link](./references/components/infrastructure/queue/change-message.md) |
-| `State machine`            | A status model reflecting the current status of individual items and the overall component status                  | [link](./references/components/state-machine.md)                     |
+| `State machine`            | A status model reflecting the current status of individual sections and the overall technical design status        | [link](./references/components/state-machine.md)                     |
 | `Reviews`                  | Technical design reviews and review history                                                                        | [link](./references/components/reviews.md)                           |
 | `Open Questions`           | Unanswered questions, areas of uncertainty, difficulties, and doubts                                               | [link](./references/components/open-questions.md)                    |
 
